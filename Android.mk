@@ -6,4 +6,13 @@ LOCAL_PATH := $(call my-dir)
 
 ifeq ($(TARGET_DEVICE),gale)
 
+$(call add-radio-file-sha1-checked,radio/gz.img,19f979a3b21f8b5f0e1a7fe5504103c8add86402)
+$(call add-radio-file-sha1-checked,radio/lk.img,6c55e5b70d79d4e20f464abf80191d4ea8588080)
+$(call add-radio-file-sha1-checked,radio/md1img.img,85f0d2904806e391f9204d2fd99cf2dc32d08888)
+$(call add-radio-file-sha1-checked,radio/preloader_raw.img,5384cf60e8a400518d6cb6f0b165bac869c2e78c)
+$(call add-radio-file-sha1-checked,radio/scp.img,72ddfc37b064e09a9a740ede1bbe90a88e2d8962)
+$(call add-radio-file-sha1-checked,radio/spmfw.img,e80398c6dde34fba580ab2dbdec443c81fa66477)
+$(call add-radio-file-sha1-checked,radio/sspm.img,f0b1089d863d16384744e1208564c80d6fe6578b)
+$(call add-radio-file-sha1-checked,radio/tee.img,8a25f2bb3145bf5aeddd6d6088278ebfbcad534b)
+
 endif
